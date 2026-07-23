@@ -1,4 +1,4 @@
-# Calculator By Jesse Jimmy Mafusa @ iTechie 360
+# Calculator
 # Copyright (C) 2025 iTechie 360
 
 # C++ Simple Calculator
