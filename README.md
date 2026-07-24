@@ -1,7 +1,5 @@
-# Calculator
+# Calculator in C++
 # Copyright (C) 2025 iTechie 360
-
-# C++ Simple Calculator
 
 A modular C++ console calculator built with clean architecture.
 
