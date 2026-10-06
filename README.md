@@ -64,6 +64,25 @@ If you prefer to compile manually, run:
 g++ src/calculator/main.cpp src/calculator/calculator.cpp -std=c++17 -Iinclude -o bin/calculator
 ```
 
+### Windows `.exe` setup
+If you want a Windows executable, build it as follows:
+
+```bash
+make windows
+```
+
+Or compile manually on Windows with MinGW:
+
+```bash
+g++ src/calculator/main.cpp src/calculator/calculator.cpp -std=c++17 -Iinclude -o bin/calculator.exe
+```
+
+This creates a distributable Windows executable that can be run with:
+
+```powershell
+./bin/calculator.exe
+```
+
 ## Run the app
 After building, start the calculator:
 
@@ -75,6 +94,12 @@ Or run the compiled file directly:
 
 ```bash
 ./bin/calculator
+```
+
+On Windows:
+
+```powershell
+./bin/calculator.exe
 ```
 
 Example usage:
